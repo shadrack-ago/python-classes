@@ -21,3 +21,11 @@ print("after appending", my_list)
 my_list.insert(3,7)
 print("after inserting", my_list)
 # so insert you can insert at any index but indicate the position
+
+prime_numbers=[2,3,5,7]
+even_numbers=[4,6,8]
+prime_numbers.extend(even_numbers)
+print("after extending",prime_numbers)
+
+numbers=even_numbers+prime_numbers
+print("after adding",numbers)
