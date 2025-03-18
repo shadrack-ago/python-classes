@@ -29,3 +29,15 @@ print("after extending",prime_numbers)
 
 numbers=even_numbers+prime_numbers
 print("after adding",numbers)
+
+del prime_numbers[2]
+print("after deleting",numbers)
+
+prime_numbers.remove(3);
+
+even_numbers.pop(1)
+print("after popping",even_numbers)
+
+even_numbers.insert(2,10)
+print("after pushing",even_numbers)
+
