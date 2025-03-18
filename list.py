@@ -7,4 +7,7 @@ my_list[2]=10
 print(my_list[2])
 
 languages=['C','C++','Java','Python']
-print(languages)
+print(languages[-2])
+print(languages[1:3])
+print(languages[:]) #prints all elements
+
