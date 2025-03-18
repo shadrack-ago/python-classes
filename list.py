@@ -41,3 +41,16 @@ print("after popping",even_numbers)
 even_numbers.insert(2,10)
 print("after pushing",even_numbers)
 
+# Python Tuple
+letters=('a','b','c','d', 'a','e')
+print(letters)
+
+print(letters.count('a'))
+print(letters.index('d'))
+
+# Python dictionary
+province={"kisumu":"Nyanza","Nairobi":"Nairobi","Mombasa":"Coast"}
+print(province)
+province["Nakuru"]="Rift Valley"
+print(province)
+province["Garissa"]="North Eastern"
