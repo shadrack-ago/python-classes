@@ -54,3 +54,30 @@ print(province)
 province["Nakuru"]="Rift Valley"
 print(province)
 province["Garissa"]="North Eastern"
+
+# python sets
+A={1,2,3,4,5,9}
+B={4,5,2,6,7,8}
+print(A.union(B))
+# or
+print(A|B)
+print(A.intersection(B))
+# or
+print(A&B)
+print(A.difference(B))
+# or
+print(A-B)
+print(A.symmetric_difference(B))
+# or
+print(A^B)
+
+if 1 in A:
+    print("1 is in A");
+
+C={1,2,3}
+D={3,2,1}
+# perform difference operation
+if C==D:
+    print("set C is equal to set D")
+else:
+    print("set C is not equal to set D")
