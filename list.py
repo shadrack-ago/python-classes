@@ -81,3 +81,6 @@ if C==D:
     print("set C is equal to set D")
 else:
     print("set C is not equal to set D")
+
+# strings
+print("He said, \"I am a programmer\"")
