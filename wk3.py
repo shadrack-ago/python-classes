@@ -71,3 +71,16 @@ for number in range(1, 10):  # Loop through numbers 1 to 9
         print(f"Skipping {number} because it's even")
         continue  # Skip the rest of the loop body for even numbers
     print(f"Processing number: {number}")    
+
+
+#print prime numbers between 1 and 20
+for num in range(2, 21):
+        for i in range(2, num):
+            if (num % i) == 0:
+                break
+        else:
+            print(num)
+
+my_tuple=("a","b","c","d","e","f")
+print(my_tuple[-1])
+print(my_tuple.index("b"))
