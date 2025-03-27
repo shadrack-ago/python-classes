@@ -96,3 +96,13 @@ def power(base,expotentiol):
     return False
 
 print(power(8,3))    
+
+
+# Divisible By Ten
+def divisibilityTest(num):
+  if num%10==0:
+    print(f"{num} is divisible by 10")
+  else:
+    print(f"{num} is not divisible by 10")
+
+divisibilityTest(200)
