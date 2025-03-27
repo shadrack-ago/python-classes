@@ -84,3 +84,15 @@ for num in range(2, 21):
 my_tuple=("a","b","c","d","e","f")
 print(my_tuple[-1])
 print(my_tuple.index("b"))
+
+
+# python method that calculate base and expotentiol value and if it is greator than 5000 it return true, else false
+
+def power(base,expotentiol):
+  results=base**expotentiol
+  if results>5000:
+    return True
+  else:
+    return False
+
+print(power(8,3))    
