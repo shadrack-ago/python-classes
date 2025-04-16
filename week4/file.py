@@ -13,5 +13,6 @@ with open('week4/output.txt', 'w') as output_file:
     output_file.write(processed_content)
     output_file.write(f"\n\nWord Count: {word_count}")
 
+
 # Step 5: Print a success message
 print("The file 'output.txt' has been created successfully.")
