@@ -16,4 +16,3 @@ with open('week4/output.txt', 'w') as output_file:
 
 # Step 5: Print a success message
 print("The file 'output.txt' has been created successfully.")
-

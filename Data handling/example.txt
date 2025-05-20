@@ -1,0 +1,2 @@
+lorem ipsum # This code reads the contents of 'input.txt', counts the number of words, 
+converts the text to uppercase, and writes the processed text and word count to 'output.txt'.
