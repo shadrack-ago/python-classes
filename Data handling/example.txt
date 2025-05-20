@@ -1,2 +1,9 @@
-lorem ipsum # This code reads the contents of 'input.txt', counts the number of words, 
-converts the text to uppercase, and writes the processed text and word count to 'output.txt'.
+LOREM IPSUM #
+ THIS CODE READS THE CONTENTS OF 'INPUT.TXT',
+  COUNTS THE NUMBER OF WORDS, 
+CONVERTS THE TEXT TO UPPERCASE, AND WRITES THE PROCESSED TEXT AND WORD COUNT TO 'OUTPUT.TXT'.
+
+WORD COUNT: 30
+
+
+Word count: 33
